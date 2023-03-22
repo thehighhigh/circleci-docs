@@ -71,22 +71,21 @@ If you are not making changes on your main branch, you will need to open a pull 
 ## VS Code extension
 
 Similar features to the in-app configuration editor can be found in the [CircleCI VS Code extension](https://marketplace.visualstudio.com/items?itemName=circleci.circleci)
-The VS Code extension makes it easier to write, edit, navigate and troubleshoot configuration files through real-time syntax validation and highlighting, rich code navigation, usage hints and autocomplete suggestions. 
+The VS Code extension makes it easier to write, edit, navigate and troubleshoot configuration files thanks to the followng capabilities:
 
-
-* **Rich code navigation through “go-to-definition” and “go-to-reference” commands.** This is especially convenient when working on large configuration files, to verify the definition of custom jobs, executors parameters, or in turn view where any of them are referenced in the file. Assisted code navigation also works for Orbs, allowing to explore their definition directly in the IDE when using the go-to-definition feature on an orb-defined command or parameter.
+* **Rich code navigation through “go-to-definition” and “go-to-reference” commands.** Working on large configuration files is easier thanks to shortcuts enablign you to go verify the definition of custom jobs, executors parameters, orbs definition and parameters directly in the IDE or in turn view where any of them are referenced in the file. 
 
 ![Screenshot showing the definition available on hover]({{site.baseurl}}/assets/img/docs/vs_code_extension_config_helper_go-to-definition-optimised.gif)
 
-* **Contextual documentation and usage hints when hovering on specific keys**, so to avoid you having to continuously switch to your browser to check the docs whenever you are editing your configuration. That said, links to the official CircleCI documentation are also provided on hover - for easier navigation.
+* **Contextual documentation and usage hints when hovering on specific keys**, get critical docs information without leaving your YAML file in orrder to build your configuration with more velocity and less context switching to CircleCI documentation.
 
 ![Screenshot showing the contextual information on hover]({{site.baseurl}}/assets/img/docs/vs_code_extension_config_helper_on-hover-documentation.png)
 
-* **Syntax validation** - which makes it much easier to identify typos, incorrect use of parameters, incomplete definitions, wrong types, invalid or deprecated machine versions, etc.
+* **Syntax validation** - identify typos, incorrect use of parameters, incomplete definitions, wrong types, invalid or deprecated machine versions 
 
 ![Screenshot showing the synthax highlightning when an error is identified]({{site.baseurl}}/assets/img/docs/vs_code_extension_config_helper_syntax-validation.gif)
 
-* **Usage warnings** - which can help identify deprecated parameters, unused jobs or executors, or missing keys that prevent you from taking advantage of CircleCI’s full capabilities
+* **Usage warnings** - identify deprecated parameters, unused jobs or executors, or missing keys 
 
 ![Screenshot showing code highlightning to warn on an unused job]({{site.baseurl}}/assets/img/docs/vs_code_extension_config_helper_usage-warning.png)
 
