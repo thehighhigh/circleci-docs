@@ -372,6 +372,7 @@ Using what you have learned above, you are ready to create some powerful pipelin
 If you are a VS Code user, you might find the official link:https://marketplace.visualstudio.com/items?itemName=circleci.circleci[CircleCI extension] useful when writing, editing, navigating and troubleshooting your YAML Config files.
 
 The extension provides real-time syntax highlighting and validation, improved navigation through go-to-definition and go-to-reference  commands, usage hints and autocomplete suggestions.
+
 +
 image:{{site.baseurl}}/assets/img/docs/vs_code_extension_config_helper_on-hover-documentation.png[Screenshot showing the contextual information on hover]
 
