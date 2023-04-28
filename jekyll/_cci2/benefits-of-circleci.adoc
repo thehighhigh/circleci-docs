@@ -12,7 +12,9 @@ contentTags:
 :icons: font
 :toc: macro
 :toc-title:
+:benefits:
 
+{% include snippets/test/test.adoc %}
 
 [#benefits-of-circleci]
 == Benefits of CircleCI

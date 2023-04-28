@@ -10,6 +10,9 @@ contentTags:
 :icons: font
 :toc: macro
 :toc-title:
+:bitbucket:
+
+{% include snippets/test/test.adoc %}
 
 [#overview]
 == Overview

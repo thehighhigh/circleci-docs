@@ -1,0 +1,8 @@
+
+ifdef::benefits[]
+**This is the benefits of CircleCI page**
+endif::[]
+
+ifdef::bitbucket[]
+**This is the Bitbucket integration page**
+endif::[]
