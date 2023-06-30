@@ -26,5 +26,12 @@
         ]
       }
     }
+  },
+  "components": {
+    "securitySchemes": {
+      "api_key_header": {
+        "description": "Project API tokens are not supported for API v2. [Use a personal API token](https://circleci.com/docs/managing-api-tokens/)."
+      }
+    }
   }
 }
