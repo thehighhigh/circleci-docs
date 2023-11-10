@@ -36,11 +36,11 @@ Currently, [Personal API tokens]({{site.baseurl}}/managing-api-tokens/#creating-
 ## Getting started with the API v2
 {: #getting-started-with-the-api-v2 }
 
-**GitHub App and GitLab users:** Note that the definition of **project slug** provided in this section, as well as its usage throughout this document applies to GitHub and Bitbucket projects only. GitLab projects currently use a new slug format:
+**GitHub App and GitLab users:** Note that the definition of **project slug** provided in this section, as well as its usage throughout this document applies to GitHub and Bitbucket projects only. GitHub App & GitLab projects currently use a new slug format:
 <br>
 `circleci/:slug-remainder`
 <br>
-The project slug for GitLab projects can be found by navigating to your project in the CircleCI web app and taking the string from the browser address bar. The slug must be treated as an opaque string and passed in its entirety in API requests. Read the [API Developer's Guide]({{site.baseurl}}/api-developers-guide/#getting-started-with-the-api/) for more details.
+The project slug for GitHub App & GitLab projects can be found by navigating to your project in the CircleCI web app and taking the string from the browser address bar. The slug must be treated as an opaque string and passed in its entirety in API requests. Read the [API Developer's Guide]({{site.baseurl}}/api-developers-guide/#getting-started-with-the-api/) for more details.  **Note: POST requests to the v2 API do not work for GitHub App & GitLab projects at this time.**
 {: class="alert alert-info"}
 
 With API v2, CircleCI is introducing a string representation called the `project_slug`, which is a "triplet" of your version control system (VCS), the name of your organization, and the name of the repository. `project_slug` takes the following form:
