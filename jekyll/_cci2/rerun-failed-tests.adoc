@@ -50,7 +50,7 @@ NOTE: If your current job is using xref:test-splitting-tutorial#[intelligent tes
     path: test-results
 ```
 
-This example snippet is from a CircleCI configuration file that:
+This example snippet is from a CircleCI configuration file that: 
 
 . Executes Python test files that end in `.py`,
 . Splits tests by previous timing results (you can follow xref:test-splitting-tutorial#[this tutorial] on intelligent test splitting),
