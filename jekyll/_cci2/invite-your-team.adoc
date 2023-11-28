@@ -10,7 +10,7 @@ contentTags:
 :icons: font
 :experimental:
 
-After setting up an organization in CircleCI, invite your team to create and collaborate on projects.
+After setting up an organization in CircleCI, invite your team to create and collaborate on projects. 
 
 [#prerequisites]
 == Prerequisites
