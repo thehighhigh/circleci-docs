@@ -10,8 +10,6 @@ contentTags:
 :icons: font
 :experimental:
 
-NOTE: CircleCI releases is currently in **open preview**. During open preview release features are available for free. Charges will be associated with release features once they are generally available.
-
 Follow the steps on this page to update the release agent installed in your Kubernetes cluster.
 
 Refer to the link:https://circleci.com/changelog/[CircleCI Change log] to find out about new release agent versioning, updates, and fixes.
@@ -23,6 +21,10 @@ To update the Kubernetes release agent you need an operational CircleCI release 
 
 * xref:set-up-a-release-environment#[Set up a release environment]
 * xref:configure-your-kubernetes-components#[Configure your Kubernetes components]
+
+NOTE: We have made a small but significant change in the helm installation command that you need to be aware of.
+The argument name `manageNamespaces` has been corrected to `managedNamespaces`.
+Please make sure to use `managedNamespaces` instead of `manageNamespaces` when installing or upgrading to the newer versions of the software. If you have any scripts or automation that includes the previous command, they need to be updated to use managedNamespaces.
 
 [#update-steps]
 == Update steps
