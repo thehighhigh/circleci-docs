@@ -59,7 +59,7 @@ Don’t see these options? Use the org selector in the top left corner to find t
 {% endcapture %}
 
 {%- capture select-project -%}
-  {{ site.baseurl }}/assets/img/docs/getting-started-guide-exp/create-project.png
+  {{ site.baseurl }}/assets/img/docs/getting-started-guide-exp/quickstart-test.png
 {%- endcapture -%}
 
 {% include two-up.html title="1. Create a project" content=content imageURL=select-project imageAlt="Select Projects" %}
