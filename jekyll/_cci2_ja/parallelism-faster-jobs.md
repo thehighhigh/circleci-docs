@@ -163,6 +163,6 @@ CircleCI には並列の Executor 間でのテスト分割処理を完全に制�
 
 * [CircleCI を使ってテストを分割する方法](/docs/use-the-circleci-cli-to-split-tests)
 * チュートリアル: [パイプラインを高速化するためのテスト分割](/docs/ja/test-splitting-tutorial)
-* [テスト分割のとラブルシューティング](/docs/troubleshoot-test-splitting/)
+* [テスト分割のトラブルシューティング](/docs/troubleshoot-test-splitting/)
 * [テストデータの収集](/docs/collect-test-data/)
 * [テストインサイト](/docs/insights-tests/)
